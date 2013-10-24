@@ -1,0 +1,16 @@
+{
+    "name": "node-demo",
+    "description": "NodeJS demo Application",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "start": "supervisor app.js",
+      "test": "mocha --ui bdd -R spec $(find test -name '*.js')"
+    },
+    "dependencies": {
+        "express": "3.x"
+    },
+    "devDependencies": {
+      "should": ">= 0.0.1"
+    }
+}
