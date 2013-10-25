@@ -1,12 +1,15 @@
 {
-  "name": "angualrjs-seed",
-  "description": "A starter project for angular js",
-  "devDependencies": {
-        "express": "3.x",
-        "phantomjs" : "*",
-        "karma" : "*",
-        "karma-junit-reporter" : "*",    
-        "karma-jasmine" : "*",
-        "karma-ng-scenario" : "*"
-    }
+	"name": "angualrjs-test-demo",
+	"description": "A starter project for angular js with test",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "supervisor server.js"
+	},
+	"dependencies": {
+		"express": "3.x"
+	},
+	"devDependencies": {
+		"should": ">= 0.0.1"
+	}
 }
