@@ -1,0 +1,20 @@
+{
+	"name": "grunt-demo",
+	"description": "NodeJS demo to run grunt",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "supervisor app.js",
+		"test": "karma start config/karma.conf.js $*"
+	},
+	"dependencies": {
+		"express": "3.x"
+	},
+	"devDependencies": {
+		"should": ">= 0.0.1",
+		"grunt": "~0.4.1",
+		"grunt-contrib-jshint": "~0.6.3",
+		"grunt-contrib-nodeunit": "~0.2.0",
+		"grunt-contrib-uglify": "~0.2.2"
+    }
+}
