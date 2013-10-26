@@ -12,14 +12,14 @@ module.exports = function(config){
     autoWatch : true,
 //    autoWatch : false,
 
-    browsers : ['Chrome'],
+    browsers : ['Firefox'],
 
     frameworks: ['ng-scenario'],
 
     singleRun : true,
 
     proxies : {
-      '/': 'http://localhost:8000/'
+      '/': 'http://localhost:8000'
     },
 
     plugins : [
